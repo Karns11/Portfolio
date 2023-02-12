@@ -217,7 +217,7 @@ function Contactpage() {
                 <div class="d-flex align-items-center justify-content-between bg-light p-3" style={{borderRadius: '8px'}}>
                     <div class="w-50">
                         <div className='text-light'>
-                            <h3 className='fw-bold text-dark'>Say Hello!</h3>
+                            <h3 className='fw-bold text-dark'>Say hello!</h3>
                         </div>
                         <form onSubmit={handleSubmit}>
                             <div class="form-floating mb-3 contact-input">
