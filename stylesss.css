@@ -3,3 +3,11 @@
         aspect-ratio: 4/2;
     }
 }
+
+.brand:hover {
+    opacity: 80%;
+}
+
+.icon:hover {
+    opacity: 60%;
+}
