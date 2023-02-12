@@ -15,7 +15,7 @@ function Navbar() {
     return (
         <nav className='navbar navbar-expand-lg bg-dark navbar-dark py-4 fixed-top'>
             <div className="container navbar-container">
-                <a href='#Showcase' className='navbar-brand'>Nathans Portfolio</a>
+                <a href='#Showcase' className='navbar-brand brand'>Nathans Portfolio</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -57,7 +57,7 @@ function Projects() {
     return (
         <section id='Projects' className="bg-light p-5">
             <div className='container text-center'>
-                    <h2 className='mb-5 fw-bold'>Projects</h2>
+                <h2 className='mb-5 fw-bold'>Projects</h2>
                 <div className='row row-cols-2 text-center'>
                     <div className='col my-5'>
                         <a href="https://karns11.github.io/To-Do-list/" target="_blank"><img src="todo.svg" className='img-fluid d-none d-sm-block' /></a>
@@ -121,7 +121,7 @@ function Projects() {
 function Experience() {
     return (
         <section id='Experience' className='bg-light p-5'>
-            <div className='container text-center mb-5'>
+            <div className='container text-center mb-3'>
                 <h2 className='fw-bold'>Experience</h2>
             </div>
             <div class="accordion" id="accordionExample">
@@ -183,38 +183,60 @@ function Experience() {
 function Contactpage() {
 
 
-    const [text, setText] = React.useState("");
+    const [name, setName] = React.useState("");
+    const [email, setEmail] = React.useState("");
+    const [subject, setSubject] = React.useState("");
+    const [message, setMessage] = React.useState("");
+    const [isRequired, setIsRequired] = React.useState(true)
 
-    const handleChange = (e) => {
-        setText(e.target.value)
+    const handleChangeName = (e) => {
+        setName(e.target.value)
     }
+
+    const handleChangeEmail = (e) => {
+        setEmail(e.target.value)
+    }
+
+    const handleChangeSubject = (e) => {
+        setSubject(e.target.value)
+    }
+
+    const handleChangeMessage = (e) => {
+        setMessage(e.target.value)
+    }
+
+    const handleSubmit = event => {
+        event.preventDefault();
+        // Submit the form data to your server here...
+      };
+
 
     return (
         <section id='Contact' class="bg-secondary text-dark p-5">
             <div class="container">
-                <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center justify-content-between bg-light p-3" style={{borderRadius: '8px'}}>
                     <div class="w-50">
                         <div className='text-light'>
-                            <h3 className='fw-bold'>Contact Me</h3>
+                            <h3 className='fw-bold text-dark'>Contact Me</h3>
                         </div>
-                        <form>
+                        <form onSubmit={handleSubmit}>
                             <div class="form-floating mb-3 contact-input">
-                                <input type="text" id="name" class="form-control" placeholder="Enter Name" />
+                                <input type="text" id="name" class="form-control" placeholder="Enter Name" value={name} onChange={handleChangeName} required={isRequired} />
                                 <label for="name" class="form-label">Name</label>
                             </div>
 
                             <div class="form-floating mb-3 contact-input">
-                                <input type="email" id="email" class="form-control" placeholder="Enter Email" />
+                                <input type="email" id="email" class="form-control" placeholder="Enter Email" value={email} onChange={handleChangeEmail} required={isRequired} />
                                 <label for="email" class="form-label">Email</label>
                             </div>
 
                             <div class="form-floating mb-3 contact-input">
-                                <input type="text" id="subject" class="form-control" placeholder="Enter Subject" />
+                                <input type="text" id="subject" class="form-control" placeholder="Enter Subject" value={subject} onChange={handleChangeSubject} required={isRequired} />
                                 <label for="subject" class="form-label">Subject</label>
                             </div>
 
                             <div class="form-floating mb-3 contact-input">
-                                <textarea name='text' id='message' className='textarea form-control' placeholder='Enter Message' style={{height: "175px"}} value={text} onChange={handleChange}></textarea>
+                                <textarea name='text' id='message' className='textarea form-control' placeholder='Enter Message' style={{height: "175px"}} value={message} onChange={handleChangeMessage} required={isRequired}></textarea>
                                 <label for="message" class="form-label">Message</label>
                             </div>
 
@@ -226,16 +248,16 @@ function Contactpage() {
 
                 <div className='row pt-5 text-center'>
                     <div className='col'>
-                        <a href='https://twitter.com/karnsnathan11' target='_blank' className='btn ml-3'><i className='fab fa-twitter text-light'></i></a>
+                        <a href='https://twitter.com/karnsnathan11' target='_blank' className='btn ml-3'><i className='fab fa-twitter text-light icon'></i></a>
                     </div>
                     <div className='col'>
-                        <a href='https://github.com/karns11' target='_blank' className='btn ml-3'><i className='fab fa-github text-light'></i></a>
+                        <a href='https://github.com/karns11' target='_blank' className='btn ml-3'><i className='fab fa-github text-light icon'></i></a>
                     </div>
                     <div className='col'>
-                        <a href='https://www.linkedin.com/in/nathan-karns-63820a216/' target='_blank' className='btn ml-3'><i className='fab fa-linkedin text-light'></i></a>
+                        <a href='https://www.linkedin.com/in/nathan-karns-63820a216/' target='_blank' className='btn ml-3'><i className='fab fa-linkedin text-light icon'></i></a>
                     </div>
                     <div className='col'>
-                    <a href='https://instagram.com/karnsnathan11' target='_blank' className='btn ml-3'><i className='fab fa-instagram text-light'></i></a>
+                    <a href='https://instagram.com/karnsnathan11' target='_blank' className='btn ml-3'><i className='fab fa-instagram text-light icon'></i></a>
                     </div>
                 </div>
 
@@ -245,3 +267,64 @@ function Contactpage() {
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
+
+
+//This is an example of how to create a working contact form.
+/* 
+function ContactForm() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+
+  const handleSubmit = event => {
+    event.preventDefault();
+    // Submit the form data to your server here...
+  };
+
+  const handleChange = event => {
+    setFormData({
+      ...formData,
+      [event.target.name]: event.target.value
+    });
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+        />
+      </div>
+      <div>
+        <label htmlFor="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+        />
+      </div>
+      <div>
+        <label htmlFor="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+        />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+export default ContactForm;
+*/ 
