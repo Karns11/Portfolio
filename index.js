@@ -242,6 +242,7 @@ function Contactpage() {
 
                             <button class="btn btn-warning">Submit</button>
                         </form>
+                        <h6 className='pt-3'>* Please note: This section is currently under construction.</h6>
                     </div>
                     <img class='img-fluid w-50 d-none d-md-block contact-img' src="email.svg" alt="contact me" />
                 </div>
