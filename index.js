@@ -210,35 +210,35 @@ function Contactpage() {
 
 
     return (
-        <section id='Contact' class="bg-secondary text-dark p-5">
-            <div class="container">
-                <div class="d-flex align-items-center justify-content-between bg-light p-3" style={{borderRadius: '8px'}}>
-                    <div class="w-50">
+        <section id='Contact' className="bg-secondary text-dark p-5">
+            <div className="container">
+                <div className="d-flex align-items-center justify-content-between bg-light p-3" style={{borderRadius: '8px'}}>
+                    <div className="w-50">
                         <div className='text-light'>
                             <h3 className='fw-bold text-dark'>Say Hello!</h3>
                         </div>
                         <form onSubmit={handleSubmit}>
-                            <div class="form-floating mb-3 contact-input">
-                                <input type="text" id="name" class="form-control" placeholder="Enter Name" value={name} onChange={handleChangeName} required={isRequired} />
+                            <div className="form-floating mb-3 contact-input">
+                                <input type="text" id="name" className="form-control" placeholder="Enter Name" value={name} onChange={handleChangeName} required={isRequired} />
                                 <label for="name" class="form-label">Name</label>
                             </div>
 
                             <div class="form-floating mb-3 contact-input">
-                                <input type="email" id="email" class="form-control" placeholder="Enter Email" value={email} onChange={handleChangeEmail} required={isRequired} />
-                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" className="form-control" placeholder="Enter Email" value={email} onChange={handleChangeEmail} required={isRequired} />
+                                <label for="email" className="form-label">Email</label>
                             </div>
 
                             <div class="form-floating mb-3 contact-input">
-                                <input type="text" id="subject" class="form-control" placeholder="Enter Subject" value={subject} onChange={handleChangeSubject} required={isRequired} />
-                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" className="form-control" placeholder="Enter Subject" value={subject} onChange={handleChangeSubject} required={isRequired} />
+                                <label for="subject" className="form-label">Subject</label>
                             </div>
 
                             <div class="form-floating mb-3 contact-input">
                                 <textarea name='text' id='message' className='textarea form-control' placeholder='Enter Message' style={{height: "175px"}} value={message} onChange={handleChangeMessage} required={isRequired}></textarea>
-                                <label for="message" class="form-label">Message</label>
+                                <label for="message" className="form-label">Message</label>
                             </div>
 
-                            <button class="btn btn-warning">Submit</button>
+                            <button className="btn btn-warning">Submit</button>
                         </form>
                         <h6 className='pt-3'>* Please note: This section is currently under construction.</h6>
                     </div>
@@ -261,6 +261,14 @@ function Contactpage() {
                 </div>
 
             </div>
+        </section>
+    )
+}
+
+function Footer() {
+    return (
+        <section>
+
         </section>
     )
 }
