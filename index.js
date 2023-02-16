@@ -265,14 +265,6 @@ function Contactpage() {
     )
 }
 
-function Footer() {
-    return (
-        <section>
-
-        </section>
-    )
-}
-
 ReactDOM.render(<App />, document.getElementById('root'))
 
 
