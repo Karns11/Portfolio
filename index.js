@@ -65,15 +65,15 @@ function Projects() {
 
                     <div className='col my-5'>
                         <h3>To-Do List</h3>
-                        <p>This is my first attempt at a project using Javascript. I decided to make a To-Do list. This project was really fun for me and I am really exited to see how it turned out.
-                        Since this is my first javascript project, I did not use any local storage. I am currently in the process of developing a new and improved version that incorporates the use
-                        of local storage. I was really happy with how the buttons turned out, specifically the edit and delete buttons. Each button has a hover effect that is really cool as well. 
-                        As a result, I have become more comfortable with HTML, CSS, and Javascript.</p>
+                        <p>This is my first attempt at a project using Javascript. The to-do list project is a web application that enables users to create and manage a list of tasks. It was built using self-taught HTML, CSS, and JavaScript skills that I learned as a result of working through various courses on Freecodecamp.com.
+                        The user interface of the to-do list is intuitive and user-friendly, with a simple form where users can add tasks and a display area that shows all tasks that have been added. Tasks can be marked as completed or deleted as needed, providing a flexible and customizable experience for users.
+                        The to-do list project showcases the power of JavaScript for creating dynamic web applications. With its event-driven architecture and ability to manipulate the DOM, JavaScript makes it possible to create a highly interactive user interface that responds to user input in real-time.
+                        Overall, the to-do list project is a useful and practical application of HTML, CSS, and JavaScript that demonstrates the power and flexibility of these web technologies.</p>
                     </div>
 
                     <div className='col my-5'>
                         <h3>Klondike Solitaire Game</h3>
-                        <p>This assignment focuses on the design, implementation and testing of a Python program which
+                        <p>This project focuses on the design, implementation and testing of a Python program which
                         uses a module to play a card game, Klondike Solitaire. Klondike is one of the most popular solitaire card games. The game is played by one person
                         with a standard 52-card deck of playing cards. The goal of the game is to build four foundations
                         (one for each of the four suits), where all of the cards in each foundation are in order from Ace to
@@ -88,29 +88,27 @@ function Projects() {
                     </div>
 
                     <div>
-                        <a href="https://github.com/Karns11/Penguin" target="_blank"><img src="movie.svg" className='img-fluid d-none d-sm-block' /></a>
+                        <a href="https://karns11.github.io/Markdown-Previewer/" target="_blank"><img src="previewer.svg" className='img-fluid d-none d-sm-block' /></a>
                     </div>
 
                     <div className='col my-5'>
-                        <h3>Python Movie Project</h3>
-                        <p>This assignment focuses on the design, implementation, and testing of a Python program that uses
-                        lists and tuples. The GroupLens Research Project at the University of Minnesota has gathered a dataset from the
-                        MovieLens website recording the ratings provided by different users on different movies on a
-                        scale of 1-5. Here, I write a Python program that uses the MovieLens dataset to answer questions like the
-                        highest average rated movies in a year, specific genre, by a specific gender (male or female), or a
-                        specific profession (occupational group).</p>
+                        <h3>Markdown Previewer</h3>
+                        <p>The markdown previewer project is a web application that I built using React and Bootstrap that allows users to input markdown text and see it rendered in real-time.
+                        These are self-taught skills that I learned as a result of working through various courses on Freecodecamp.com.
+                        It has robust markdown parsing capabilities, including handling complex markdown syntax, such as headings, lists, tables, and code blocks. The interface is designed with simplicity and ease-of-use in mind, and the layout is fully responsive for optimal viewing on any device.
+                        The project demonstrates how React and Bootstrap can be used together to create a high-quality, feature-rich web application that is an excellent tool for quickly and easily converting markdown to HTML.</p>
                     </div>
 
                     <div className='col my-5'>
                         <h3>NBA Game Predictor</h3>
-                        <p>This project is my first attempt at an NBA game predictor model. I used the BeautifulSoup python package in order to scrape Basketballreference.com.
-                        I split the data into two different categories: Train and Test. I trained my model on 80% of the data and used the other category in order to have my model 
-                        use the data to prdict winners. This is a completely self-taught skill, and I am super happy to see this idea come to fruition. Down the road, I want to be able to use the 
-                        data I collected in order to be able to predict future NBA games, and then see how accurate the model is.</p>
+                        <p>This project encompasses my passion for sports and programming, as I created an NBA game predictor model using Python. The project is a work in progress that involves the use of several powerful Python libraries, including Beautifulsoup and Scikit-learn.
+                        To build the NBA game predictor, I used Beautifulsoup to scrape data from various websites, such as Basketball Reference. This data was then processed and analyzed using Python and the Pandas library. The data was split using the sklearn library, which allowed me to train the model and make predictions.
+                        One of the key challenges in building an NBA game predictor model is the large amount of data involved. However, with the help of Python and its libraries, I was able to efficiently process and analyze the data to make accurate predictions.
+                        Overall, the NBA game predictor project is an exciting application of Python for sports enthusiasts and data scientists alike. While it is still a work in progress, the project demonstrates the power and flexibility of Python for data analysis and machine learning.</p>
                     </div>
 
                     <div>
-                        <a href="https://github.com/Karns11/NBAWebScraping" target="_blank"><img src="nba.svg" className='img-fluid d-none d-sm-block' /></a>
+                        <a href="https://github.com/Karns11/NBA-predictor" target="_blank"><img src="nba.svg" className='img-fluid d-none d-sm-block' /></a>
                     </div>
                 </div>
             </div>
