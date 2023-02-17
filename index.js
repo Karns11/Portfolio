@@ -6,6 +6,7 @@ function App() {
             <Projects />
             <Experience />
             <Contactpage />
+            <Footer />
         </div>
     )
 }
@@ -13,7 +14,7 @@ function App() {
 
 function Navbar() {
     return (
-        <nav className='navbar navbar-expand-lg bg-dark navbar-dark py-4 fixed-top'>
+        <nav className='navbar navbar-expand-lg bg-dark navbar-dark py-4 fixed-top w-100'>
             <div className="container navbar-container">
                 <a href='#Showcase' className='navbar-brand brand'>Nathans Portfolio</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -256,10 +257,33 @@ function Contactpage() {
                         <a href='https://www.linkedin.com/in/nathan-karns-63820a216/' target='_blank' className='btn ml-3'><i className='fab fa-linkedin text-light icon'></i></a>
                     </div>
                     <div className='col'>
-                    <a href='https://instagram.com/karnsnathan11' target='_blank' className='btn ml-3'><i className='fab fa-instagram text-light icon'></i></a>
+                        <a href='https://instagram.com/karnsnathan11' target='_blank' className='btn ml-3'><i className='fab fa-instagram text-light icon'></i></a>
                     </div>
                 </div>
 
+            </div>
+        </section>
+    )
+}
+
+function Footer() {
+    return (
+        <section className='bg-secondary'>
+            <div className='container pb-3 pt-0'>
+                <div className='row text-center'>
+                    <div className='col'>
+                        <a href="tel:+12482100166" target='_blank' className='btn icon'>
+                            <i className="fas fa-phone me-2 text-light"></i>
+                            <span className='text-light'>+1 (248) 210-0166</span>
+                        </a>
+                    </div>
+                    <div className='col'>
+                        <a href="mailto:karnsnat@msu.edu" target='_blank' className='btn icon'>
+                            <i className="fas fa-envelope me-2 text-light"></i>
+                            <span className='text-light'>Karnsnat@msu.edu</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
     )
