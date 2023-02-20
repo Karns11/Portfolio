@@ -61,7 +61,7 @@ function Projects() {
                 <h2 className='mb-4 fw-bold'>Projects</h2>
                 <div className='row row-cols-2 text-center'>
                     <div className='col my-5'>
-                        <a href="https://karns11.github.io/To-Do-list/" target="_blank"><img src="todo.svg" className='img-fluid d-none d-md-block my-5' /></a>
+                        <a href="https://karns11.github.io/To-Do-list/" target="_blank"><img src="todo.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
                     </div>
 
                     <div className='col d-none d-md-block my-5'>
@@ -85,11 +85,11 @@ function Projects() {
                     </div>
 
                     <div>
-                        <a href="https://github.com/Karns11/solitaire_game" target="_blank"><img src="solitaire.svg" className='img-fluid d-none d-md-block my-5' /></a>
+                        <a href="https://github.com/Karns11/solitaire_game" target="_blank"><img src="solitaire.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
                     </div>
 
                     <div>
-                        <a href="https://karns11.github.io/Markdown-Previewer/" target="_blank"><img src="previewer.svg" className='img-fluid d-none d-md-block my-5' /></a>
+                        <a href="https://karns11.github.io/Markdown-Previewer/" target="_blank"><img src="previewer.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
                     </div>
 
                     <div className='col d-none d-md-block my-5'>
@@ -109,7 +109,7 @@ function Projects() {
                     </div>
 
                     <div>
-                        <a href="https://github.com/Karns11/NBA-predictor" target="_blank"><img src="nba.svg" className='img-fluid d-none d-md-block my-5' /></a>
+                        <a href="https://github.com/Karns11/NBA-predictor" target="_blank"><img src="nba.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
                     </div>
                 </div>
 
