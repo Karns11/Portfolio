@@ -66,6 +66,13 @@ function Projects() {
                         The calculator is continuously updated to improve its functionality and add new features, 
                         such as the ability to handle more complex equations and customize its appearance. Creating this calculator was both challenging and rewarding as it showcases my development skills. It's exciting to develop a calculator that is versatile, easy to use, and aesthetically pleasing. 
                         I am proud of the work I've done on this calculator and look forward to continuing to refine and enhance it as my skills as a developer grow.</p>
+                        <h5 className='pt-1'>Skills used:</h5>
+                        <div>
+                            <a><i className='fab fa-html5 px-3'></i></a>
+                            <a><i className='fab fa-js-square px-3'></i></a>
+                            <a><i className='fab fa-react px-3'></i></a>
+                            <a><i className='fab fa-css3 px-3'></i></a>
+                        </div>
                     </div>
 
                     <div className='col my-5'>
@@ -80,20 +87,31 @@ function Projects() {
                         <h3>To-Do List</h3>
                         <p className='text-start'>This is my first attempt at a project using Javascript. The to-do list project is a web application that enables users to create and manage a list of tasks. It was built using self-taught HTML, CSS, and JavaScript skills that I learned as a result of working through various courses on Freecodecamp.com.
                         The user interface of the to-do list is intuitive and user-friendly, with a simple form where users can add tasks and a display area that shows all tasks that have been added. Tasks can be marked as completed or deleted as needed, providing a flexible and customizable experience for users.
-                        The to-do list project showcases the power of JavaScript for creating dynamic web applications. With its event-driven architecture and ability to manipulate the DOM, JavaScript makes it possible to create a highly interactive user interface that responds to user input in real-time.
-                        Overall, the to-do list project is a useful and practical application of HTML, CSS, and JavaScript that demonstrates the power and flexibility of these web technologies.</p>
+                        The to-do list project showcases the power of JavaScript for creating dynamic web applications. 
+                        With its event-driven architecture and ability to manipulate the DOM, JavaScript makes it possible to create a highly interactive user interface that responds to user input in real-time. Overall, 
+                        the to-do list project is a useful and practical application of HTML, CSS, and JavaScript that demonstrates the power and flexibility of these web technologies.</p>
+                        <h5 className='pt-1'>Skills used:</h5>
+                        <div>
+                            <a><i className='fab fa-html5 px-3'></i></a>
+                            <a><i className='fab fa-js-square px-3'></i></a>
+                            <a><i className='fab fa-css3 px-3'></i></a>
+                        </div>
                     </div>
 
                     <div className='col d-none d-md-block my-5'>
                         <h3>Klondike Solitaire Game</h3>
                         <p className='text-start'>This project focuses on the design, implementation and testing of a Python program which
-                        uses a module to play a card game, Klondike Solitaire. Klondike is one of the most popular solitaire card games. The game is played by one person
+                        uses a module to play a card game, Klondike Solitaire. The game is played by one person
                         with a standard 52-card deck of playing cards. The goal of the game is to build four foundations
                         (one for each of the four suits), where all of the cards in each foundation are in order from Ace to
                         King (with the Ace on the bottom). The following website has an on-line version of Klondike (Turn One) and a short video
                         introduction to the game: <a href="https://worldofsolitaire.com/" target="_blank">http://worldofsolitaire.com/</a>. Note that the game rules used for this project are simpler than the rules discussed on the website.
                         Notably, the online game allows a multi-card pile to be moved between columns of the tableau—
                         this project only allows one card at a time to be moved.</p>
+                        <h5 className='pt-1'>Skills used:</h5>
+                        <div>
+                            <a><i className='fab fa-python'></i></a>
+                        </div>
                     </div>
 
                     <div>
@@ -109,7 +127,15 @@ function Projects() {
                         <p className='text-start'>The markdown previewer project is a web application that I built using React and Bootstrap that allows users to input markdown text and see it rendered in real-time.
                         These are self-taught skills that I learned as a result of working through various courses on Freecodecamp.com.
                         It has robust markdown parsing capabilities, including handling complex markdown syntax, such as headings, lists, tables, and code blocks. The interface is designed with simplicity and ease-of-use in mind, and the layout is fully responsive for optimal viewing on any device.
-                        The project demonstrates how React and Bootstrap can be used together to create a high-quality, feature-rich web application that is an excellent tool for quickly and easily converting markdown to HTML.</p>
+                        The project demonstrates how React and Bootstrap can be used together to create a high-quality, 
+                        feature-rich web application that is an excellent tool for quickly and easily converting markdown to HTML.</p>
+                        <h5 className='pt-1'>Skills used:</h5>
+                        <div>
+                            <a><i className='fab fa-html5 px-3'></i></a>
+                            <a><i className='fab fa-js-square px-3'></i></a>
+                            <a><i className='fab fa-react px-3'></i></a>
+                            <a><i className='fab fa-css3 px-3'></i></a>
+                        </div>
                     </div>
 
                     <div className='col d-none d-md-block my-5'>
@@ -117,7 +143,12 @@ function Projects() {
                         <p className='text-start'>This project encompasses my passion for sports and programming, as I created an NBA game predictor model using Python. The project is a work in progress that involves the use of several powerful Python libraries, including Beautifulsoup and Scikit-learn.
                         To build the NBA game predictor, I used Beautifulsoup to scrape data from various websites, such as Basketball Reference. This data was then processed and analyzed using Python and the Pandas library. The data was split using the sklearn library, which allowed me to train the model and make predictions.
                         One of the key challenges in building an NBA game predictor model is the large amount of data involved. However, with the help of Python and its libraries, I was able to efficiently process and analyze the data to make accurate predictions.
-                        Overall, the NBA game predictor project is an exciting application of Python for sports enthusiasts and data scientists alike. While it is still a work in progress, the project demonstrates the power and flexibility of Python for data analysis and machine learning.</p>
+                        Overall, the NBA game predictor project is an exciting application of Python for sports enthusiasts and data scientists alike. 
+                        While it is still a work in progress, the project demonstrates the power and flexibility of Python for data analysis and machine learning.</p>
+                        <h5 className='pt-1'>Skills used:</h5>
+                        <div>
+                            <a><i className='fab fa-python'></i></a>
+                        </div>
                     </div>
 
                     <div>
