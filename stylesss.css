@@ -11,3 +11,8 @@
 .icon:hover {
     opacity: 60%;
 }
+
+.small-link {
+    color: black;
+    text-decoration: underline;
+}
