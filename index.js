@@ -159,7 +159,7 @@ function Projects() {
 
                 <div className='row row-cols-1 text-center'>
                     <div className='col d-md-none d-block mt-1 mb-5'>
-                        <h3>JavaScript Calculator</h3>
+                        <a className='small-link' href='https://karns11.github.io/Javascript-Calculator/' target='_blank'><h3>JavaScript Calculator</h3></a>
                         <p className='text-center'>My powerful JavaScript calculator can handle all kinds of calculations, from simple arithmetic to more complex functions. It's a tool that I designed with inspiration from the Apple calculator app, which I've always found to be intuitive and user-friendly. 
                         The calculator is continuously updated to improve its functionality and add new features, 
                         such as the ability to handle more complex equations and customize its appearance. Creating this calculator was both challenging and rewarding as it showcases my development skills. It's exciting to develop a calculator that is versatile, easy to use, and aesthetically pleasing. 
@@ -174,7 +174,7 @@ function Projects() {
                     </div>
 
                     <div className='col d-md-none d-block my-5'>
-                        <h3>To-Do List</h3>
+                        <a className='small-link' href='https://karns11.github.io/To-Do-list/' target='_blank'><h3>To-Do List</h3></a>
                         <p className='text-center'>This is my first attempt at a project using Javascript. The to-do list project is a web application that enables users to create and manage a list of tasks. It was built using self-taught HTML, CSS, and JavaScript skills that I learned as a result of working through various courses on Freecodecamp.com.
                         The user interface of the to-do list is intuitive and user-friendly, with a simple form where users can add tasks and a display area that shows all tasks that have been added. Tasks can be marked as completed or deleted as needed, providing a flexible and customizable experience for users.
                         The to-do list project showcases the power of JavaScript for creating dynamic web applications. With its event-driven architecture and ability to manipulate the DOM, JavaScript makes it possible to create a highly interactive user interface that responds to user input in real-time.
@@ -188,7 +188,7 @@ function Projects() {
                     </div>
 
                     <div className='col d-md-none d-block my-5'>
-                        <h3>Klondike Solitaire Game</h3>
+                        <a className='small-link' href='https://github.com/Karns11/solitaire_game' target='_blank'><h3>Klondike Solitaire Game</h3></a>
                         <p className='text-center'>This project focuses on the design, implementation and testing of a Python program which
                         uses a module to play a card game, Klondike Solitaire. Klondike is one of the most popular solitaire card games. The game is played by one person
                         with a standard 52-card deck of playing cards. The goal of the game is to build four foundations
@@ -204,7 +204,7 @@ function Projects() {
                     </div>
 
                     <div className='col d-md-none d-block my-5'>
-                        <h3>Markdown Previewer</h3>
+                        <a className='small-link' href='https://karns11.github.io/Markdown-Previewer/' target='_blank'><h3>Markdown Previewer</h3></a>
                         <p className='text-center'>The markdown previewer project is a web application that I built using React and Bootstrap that allows users to input markdown text and see it rendered in real-time.
                         These are self-taught skills that I learned as a result of working through various courses on Freecodecamp.com.
                         It has robust markdown parsing capabilities, including handling complex markdown syntax, such as headings, lists, tables, and code blocks. The interface is designed with simplicity and ease-of-use in mind, and the layout is fully responsive for optimal viewing on any device.
@@ -220,7 +220,7 @@ function Projects() {
                     </div>
 
                     <div className='col d-md-none d-block my-5'>
-                        <h3>NBA Game Predictor</h3>
+                        <a className='small-link' href='https://github.com/Karns11/NBA-predictor' target='_blank'><h3>NBA Game Predictor</h3></a>
                         <p className='text-center'>This project encompasses my passion for sports and programming, as I created an NBA game predictor model using Python. The project is a work in progress that involves the use of several powerful Python libraries, including Beautifulsoup and Scikit-learn.
                         To build the NBA game predictor, I used Beautifulsoup to scrape data from various websites, such as Basketball Reference. This data was then processed and analyzed using Python and the Pandas library. The data was split using the sklearn library, which allowed me to train the model and make predictions.
                         One of the key challenges in building an NBA game predictor model is the large amount of data involved. However, with the help of Python and its libraries, I was able to efficiently process and analyze the data to make accurate predictions.
