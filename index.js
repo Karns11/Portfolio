@@ -44,8 +44,12 @@ function Showcase() {
             <div className="container py-5">
                 <div className="d-sm-flex align-items-center justify-content-between">
                     <div>
-                        <h1>Aspiring <span className="text-warning">Developer</span></h1>
-                        <p className="lead my-5">Welcome to my portfolio! As a business student with a newfound passion for programming, I am an aspiring developer constantly seeking new challenges. I'm excited to share my journey and projects on this platform with you.</p>
+                        <div className='typing-text'>
+                            <h1>Aspiring <span className="text-warning">Developer</span></h1>
+                        </div>
+                        <div>
+                            <p className="lead my-5">Welcome to my portfolio! As a business student with a newfound passion for programming, I am an aspiring developer constantly seeking new challenges. I'm excited to share my journey and projects on this platform with you.</p>
+                        </div>
                     </div>
                     <img className='img-fluid w-50 d-none d-sm-block' src="developer.svg" alt="developer" />
                 </div>
