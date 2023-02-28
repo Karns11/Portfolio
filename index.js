@@ -144,7 +144,7 @@ function Projects() {
 
                     <div className='col d-none d-md-block my-5'>
                         <h3>NBA Game Predictor</h3>
-                        <p className='text-start'>This project encompasses my passion for sports and programming, as I created an NBA game predictor model using Python. The project is a work in progress that involves the use of several powerful Python libraries, including Beautifulsoup and Scikit-learn.
+                        <p className='text-start'>This passion project encompasses my passion for sports and programming, as I created an NBA game predictor model using Python. The project is a work in progress that involves the use of several powerful Python libraries, including Beautifulsoup and Scikit-learn.
                         To build the NBA game predictor, I used Beautifulsoup to scrape data from various websites, such as Basketball Reference. This data was then processed and analyzed using Python and the Pandas library. The data was split using the sklearn library, which allowed me to train the model and make predictions.
                         One of the key challenges in building an NBA game predictor model is the large amount of data involved. However, with the help of Python and its libraries, I was able to efficiently process and analyze the data to make accurate predictions.
                         Overall, the NBA game predictor project is an exciting application of Python for sports enthusiasts and data scientists alike. 
@@ -225,7 +225,7 @@ function Projects() {
 
                     <div className='col d-md-none d-block my-5'>
                         <a className='small-link' href='https://github.com/Karns11/NBA-predictor' target='_blank'><h3>NBA Game Predictor</h3></a>
-                        <p className='text-center'>This project encompasses my passion for sports and programming, as I created an NBA game predictor model using Python. The project is a work in progress that involves the use of several powerful Python libraries, including Beautifulsoup and Scikit-learn.
+                        <p className='text-center'>This passion project encompasses my passion for sports and programming, as I created an NBA game predictor model using Python. The project is a work in progress that involves the use of several powerful Python libraries, including Beautifulsoup and Scikit-learn.
                         To build the NBA game predictor, I used Beautifulsoup to scrape data from various websites, such as Basketball Reference. This data was then processed and analyzed using Python and the Pandas library. The data was split using the sklearn library, which allowed me to train the model and make predictions.
                         One of the key challenges in building an NBA game predictor model is the large amount of data involved. However, with the help of Python and its libraries, I was able to efficiently process and analyze the data to make accurate predictions.
                         Overall, the NBA game predictor project is an exciting application of Python for sports enthusiasts and data scientists alike. 
