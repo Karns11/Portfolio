@@ -11,12 +11,12 @@
 .icon:hover {
     opacity: 60%;
 }
-
 .typing-text h1 {
+    width: 100%;
     overflow: hidden; /* hide the text initially */
-    border-right: 0.15em solid orange; /* create a blinking cursor effect */
+    border-right: 0.15em solid; /* create a blinking cursor effect */
     white-space: nowrap; /* prevent the text from wrapping */
-    animation: typing 2s steps(30, end), blink-caret .75s step-end infinite; /* define the typing and blinking animation */
+    animation: typing 2s steps(30, end), blink-caret .95s step-end infinite; /* define the typing and blinking animation */
   }
   
   @keyframes typing {
@@ -29,6 +29,35 @@
     50% { border-color: orange; } /* animate to orange border color in the middle */
   }
   
+  .slide-in-text {
+    position: relative;
+    right: -100%;
+    animation: slide-in 1s forwards;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      right: -100%;
+    }
+    100% {
+      right: 0;
+    }
+  }
+
+  .slide-in-text-left {
+    position: relative;
+    left: -100%;
+    animation: slide-in-left 1s forwards;
+  }
+  
+  @keyframes slide-in-left {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
 
 .small-link {
     color: black;
