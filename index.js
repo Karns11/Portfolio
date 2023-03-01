@@ -48,10 +48,10 @@ function Showcase() {
                             <h1>Aspiring <span className="text-warning">Developer</span></h1>
                         </div>
                         <div>
-                            <p className="lead my-5">Welcome to my portfolio! As a business student with a newfound passion for programming, I am an aspiring developer constantly seeking new challenges. I'm excited to share my journey and projects on this platform with you.</p>
+                            <p className="lead my-5 slide-in-text-left">Welcome to my portfolio! As a business student with a newfound passion for programming, I am an aspiring developer constantly seeking new challenges. I'm excited to share my journey and projects on this platform with you.</p>
                         </div>
                     </div>
-                    <img className='img-fluid w-50 d-none d-sm-block' src="developer.svg" alt="developer" />
+                    <img className='img-fluid w-50 d-none d-sm-block slide-in-text' src="developer.svg" alt="developer" />
                 </div>
             </div>
         </section>
@@ -62,7 +62,7 @@ function Projects() {
     return (
         <section id='Projects' className="bg-light p-5">
             <div className='container text-center'>
-                <h2 className='mb-4 fw-bold'>Projects</h2>
+                <h2 className='mb-4 fw-bold slide-in-text'>Projects</h2>
                 <div className='row row-cols-2 text-center'>
                     <div className='col d-none d-md-block my-5'>
                         <h3>JavaScript Calculator</h3>
