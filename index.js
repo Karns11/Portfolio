@@ -183,6 +183,22 @@ function Projects() {
 
                 <div className='row row-cols-1 text-center'>
                     <div className='col d-md-none d-block mt-1 mb-5'>
+                        <a className='small-link' href='https://karns11.github.io/Tic-Tac-Toe/' target='_blank'><h3>Tic-Tac-Toe</h3></a>
+                        <p className='text-center'>I recently completed a passion project where I built a Tic Tac Toe game using React, which allowed me to enhance my skills as a developer. 
+                        The classic two-player game features a 3x3 board where players take turns marking X's or O's until one player gets three in a row, either horizontally, vertically, or diagonally.
+                        My Tic Tac Toe game features a responsive design, which means it works seamlessly on any device, including desktops, tablets, and mobile phones.
+                        The game also includes an interactive scoreboard that tracks the number of wins, losses, and draws for each player, making it more engaging for players.
+                        Overall, my Tic Tac Toe game showcases my skills as a React developer and offers an interactive and fun way for players to challenge their friends and family.</p>
+                        <h5 className='pt-1'>Skills used:</h5>
+                        <div>
+                            <a><i className='fab fa-html5 px-3'></i></a>
+                            <a><i className='fab fa-js-square px-3'></i></a>
+                            <a><i className='fab fa-react px-3'></i></a>
+                            <a><i className='fab fa-css3 px-3'></i></a>
+                        </div>
+                    </div>
+
+                    <div className='col d-md-none d-block mt-1 mb-5'>
                         <a className='small-link' href='https://karns11.github.io/Javascript-Calculator/' target='_blank'><h3>JavaScript Calculator</h3></a>
                         <p className='text-center'>My powerful JavaScript calculator can handle all kinds of calculations, from simple arithmetic to more complex functions. It's a tool that I designed with inspiration from the Apple calculator app, which I've always found to be intuitive and user-friendly. 
                         The calculator is continuously updated to improve its functionality and add new features, 
