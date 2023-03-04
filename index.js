@@ -69,7 +69,7 @@ function Projects() {
                 <h2 className='mb-4 fw-bold slide-in-text'>Projects</h2>
                 <div className='row row-cols-2 text-center'>
                     <div className='col my-5'>
-                        <a href="https://karns11.github.io/Tic-Tac-Toe/" target="_blank"><img src="source_code.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
+                        <a href="https://karns11.github.io/Tic-Tac-Toe/" target="_blank"><img src="tic_tac_toe.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
                     </div>
 
                     <div className='col d-none d-md-block my-5'>
