@@ -1,3 +1,7 @@
+const { useRef } = React;
+const emailjs = window.emailjs;
+
+
 function App() {
     return (
         <div>
@@ -182,7 +186,7 @@ function Projects() {
 
 
                 <div className='row row-cols-1 text-center'>
-                    <div className='col d-md-none d-block mt-1 mb-5'>
+                    <div className='col d-md-none d-block mb-5'>
                         <a className='small-link' href='https://karns11.github.io/Tic-Tac-Toe/' target='_blank'><h3>Tic-Tac-Toe</h3></a>
                         <p className='text-center'>I recently completed a passion project where I built a Tic Tac Toe game using React, which allowed me to enhance my skills as a developer. 
                         The classic two-player game features a 3x3 board where players take turns marking X's or O's until one player gets three in a row, either horizontally, vertically, or diagonally.
@@ -198,7 +202,7 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className='col d-md-none d-block mt-1 mb-5'>
+                    <div className='col d-md-none d-block my-5'>
                         <a className='small-link' href='https://karns11.github.io/Javascript-Calculator/' target='_blank'><h3>JavaScript Calculator</h3></a>
                         <p className='text-center'>My powerful JavaScript calculator can handle all kinds of calculations, from simple arithmetic to more complex functions. It's a tool that I designed with inspiration from the Apple calculator app, which I've always found to be intuitive and user-friendly. 
                         The calculator is continuously updated to improve its functionality and add new features, 
@@ -343,34 +347,19 @@ function Experience() {
 
 function Contactpage() {
 
+    const form = useRef();
 
-    const [name, setName] = React.useState("");
-    const [email, setEmail] = React.useState("");
-    const [subject, setSubject] = React.useState("");
-    const [message, setMessage] = React.useState("");
-    const [isRequired, setIsRequired] = React.useState(true)
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    const handleChangeName = (e) => {
-        setName(e.target.value)
-    }
-
-    const handleChangeEmail = (e) => {
-        setEmail(e.target.value)
-    }
-
-    const handleChangeSubject = (e) => {
-        setSubject(e.target.value)
-    }
-
-    const handleChangeMessage = (e) => {
-        setMessage(e.target.value)
-    }
-
-    const handleSubmit = event => {
-        event.preventDefault();
-        // Submit the form data to your server here...
-      };
-
+    emailjs.sendForm('service_965e8b9', 'template_r4ybnou', form.current, 'o-y_5neqNasZHuGbk')
+      .then((result) => {
+          console.log(result.text);
+          e.target.reset();
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
     return (
         <section id='Contact' className="bg-secondary text-dark p-5">
@@ -380,30 +369,31 @@ function Contactpage() {
                         <div className='text-light'>
                             <h3 className='fw-bold text-dark'>Say Hello!</h3>
                         </div>
-                        <form onSubmit={handleSubmit}>
+
+                        <form ref={form} onSubmit={sendEmail}>
                             <div className="form-floating mb-3 contact-input">
-                                <input type="text" id="name" className="form-control" placeholder="Enter Name" value={name} onChange={handleChangeName} required={isRequired} />
+                                <input type="text" name="user_name" id="name" className="form-control" placeholder="Enter Name" />
                                 <label for="name" class="form-label">Name</label>
                             </div>
-
-                            <div class="form-floating mb-3 contact-input">
-                                <input type="email" id="email" className="form-control" placeholder="Enter Email" value={email} onChange={handleChangeEmail} required={isRequired} />
+                            
+                            <div className="form-floating mb-3 contact-input">
+                                <input type="email" name="user_email" id="email" className="form-control" placeholder="Enter Email" />
                                 <label for="email" className="form-label">Email</label>
                             </div>
 
-                            <div class="form-floating mb-3 contact-input">
-                                <input type="text" id="subject" className="form-control" placeholder="Enter Subject" value={subject} onChange={handleChangeSubject} required={isRequired} />
-                                <label for="subject" className="form-label">Subject</label>
+                            <div className="form-floating mb-3 contact-input">
+                                <input type="text" name='subject' id="subject" className="form-control" placeholder="Enter Subject" />
+                                <label>Subject</label>
                             </div>
-
-                            <div class="form-floating mb-3 contact-input">
-                                <textarea name='text' id='message' className='textarea form-control' placeholder='Enter Message' style={{height: "175px"}} value={message} onChange={handleChangeMessage} required={isRequired}></textarea>
+                        
+                            <div className="form-floating mb-3 contact-input">
+                                <textarea id='message' className='textarea form-control' placeholder='Enter Message' name="message" style={{height: "175px"}} />
                                 <label for="message" className="form-label">Message</label>
                             </div>
-
-                            <button className="btn btn-warning">Submit</button>
+                            
+                            <button className="btn btn-warning" type='submit'>Submit</button>
                         </form>
-                        <h6 className='pt-3'>* Please note: This section is currently under construction.</h6>
+
                     </div>
                     <img class='img-fluid w-50 d-none d-md-block contact-img' src="email.svg" alt="contact me" />
                 </div>
@@ -452,60 +442,3 @@ function Footer() {
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
-
-
-//This is an example of how to create a working contact form.
-/* 
-function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: ""
-  });
-  const handleSubmit = event => {
-    event.preventDefault();
-    // Submit the form data to your server here...
-  };
-  const handleChange = event => {
-    setFormData({
-      ...formData,
-      [event.target.name]: event.target.value
-    });
-  };
-  return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea
-          id="message"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-        />
-      </div>
-      <button type="submit">Submit</button>
-    </form>
-  );
-}
-export default ContactForm;
-*/ 
