@@ -293,10 +293,27 @@ function Experience() {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            McNaughton-McKay
+                            Spartan Analytics Consulting Group
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h4><em>Analyst</em></h4>
+                            <h6>Sept 2022-Present</h6>
+                            <p className='mb-0 pl-1'>•	Selected to be a part of, and lead, a client engagement team focused on providing business solutions, to local companies, using analytics</p>
+                            <p className='mb-0 pl-1'>•	Analyze data to identify trends and patterns, develop statistical models, and provide recommendations for process improvement </p>
+                            <p className='mb-0 pl-1'>•	Develop predictive models using various techniques including regression analysis and time series modeling in Python and R</p>
+                            <p className='mb-0 pl-1'>•	Communicate with the client regularly and present findings using data visualization tools like Tableau</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        McNaughton-McKay
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <h4><em>Data Analytics Intern</em></h4>
                             <h6>May 2022 - Aug 2022</h6>
@@ -308,35 +325,18 @@ function Experience() {
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Ripplematch
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <h4><em>Leadership Development Intern</em></h4>
-                            <h6>Feb 2022 - May 2022</h6>
-                            <p className='mb-0 pl-1'>•	Selected from a pool of thousands of candidates to work closely with leaders of RippleMatch’s Leadership Team</p>
-                            <p className='mb-0 pl-1'>•	Leveraged various growth strategies and tools including social media, email marketing, presentations, and peer and faculty member networking to grow the user base and awareness on campus</p>
-                            <p className='mb-0 pl-1'>•	Strategically assessed growth and performance metrics to improve, change and/or help design new growth</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Spartan Analytics Consulting Group
+                            Ripplematch
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <h4><em>Analyst</em></h4>
-                            <h6>Sept 2022-Present</h6>
-                            <p className='mb-0 pl-1'>•	Selected to be a part of, and lead, a client engagement team focused on providing business solutions, to local companies, using analytics</p>
-                            <p className='mb-0 pl-1'>•	Analyze data to identify trends and patterns, develop statistical models, and provide recommendations for process improvement </p>
-                            <p className='mb-0 pl-1'>•	Develop predictive models using various techniques including regression analysis and time series modeling in Python and R</p>
-                            <p className='mb-0 pl-1'>•	Communicate with the client regularly and present findings using data visualization tools like Tableau</p>
+                            <h4><em>Leadership development Intern</em></h4>
+                            <h6>Feb 2022 - May 2022</h6>
+                            <p className='mb-0 pl-1'>•	Selected from a pool of thousands of candidates to work closely with leaders of RippleMatch’s Leadership Team</p>
+                            <p className='mb-0 pl-1'>•	Leveraged various growth strategies and tools including social media, email marketing, presentations, and peer and faculty member networking to grow the user base and awareness on campus</p>
+                            <p className='mb-0 pl-1'>•	Strategically assessed growth and performance metrics to improve, change and/or help design new growth</p>
                         </div>
                     </div>
                 </div>
