@@ -71,3 +71,11 @@
     color: black;
     text-decoration: underline;
 }
+
+.img-transform {
+  transition: transform 0.4s;
+}
+
+.img-transform:hover {
+  transform: scale(1.1);
+}
