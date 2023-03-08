@@ -68,8 +68,29 @@ function Projects() {
             <div className='container text-center'>
                 <h2 className='mb-4 fw-bold slide-in-text'>Projects</h2>
                 <div className='row row-cols-2 text-center'>
+                    <div className='col d-none d-md-block my-5'>
+                        <h3>Movie/Book Search App</h3>
+                        <p className='text-start'>The movie/book search app is a passion project that was built to provide users with an easy way to search for their favorite movies or books using the IMDb or Google Books APIs.
+                        This project was a great challenge, but it was also a fantastic opportunity to improve skills in React development.
+                        With the app, users can search for movies by title, and the app provides a comprehensive list of movie results based on the title that was entered. 
+                        Similarly, book searches are simple, with the app providing users with a list of book results based on the title that was entered.
+                        Overall, this project was a great way to improve my React development skills, while also building a useful and fun app that people can enjoy. 
+                        Whether users are looking to discover new movies or books, or just searching for their favorites, this app provides a simple and intuitive way to find what they're looking for.</p>
+                        <h5 className='pt-1'>Skills used:</h5>
+                        <div>
+                            <a><i className='fab fa-html5 px-3 img-transform'></i></a>
+                            <a><i className='fab fa-js-square px-3 img-transform'></i></a>
+                            <a><i className='fab fa-react px-3 img-transform'></i></a>
+                            <a><i className='fab fa-css3 px-3 img-transform'></i></a>
+                        </div>
+                    </div>
+
                     <div className='col my-5'>
-                        <a href="https://karns11.github.io/Tic-Tac-Toe/" target="_blank"><img src="tic_tac_toe.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
+                        <a href="https://karns11.github.io/Movie-Book-Search-App/" target="_blank"><img src="search_app.svg" className='img-fluid d-none d-md-block my-5 px-3 img-transform' /></a>
+                    </div>                    
+
+                    <div className='col my-5'>
+                        <a href="https://karns11.github.io/Tic-Tac-Toe/" target="_blank"><img src="tic_tac_toe.svg" className='img-fluid d-none d-md-block my-5 px-3 img-transform' /></a>
                     </div>
 
                     <div className='col d-none d-md-block my-5'>
@@ -81,10 +102,10 @@ function Projects() {
                         Overall, my Tic Tac Toe game showcases my skills as a React developer and offers an interactive and fun way for players to challenge their friends and family.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-html5 px-3'></i></a>
-                            <a><i className='fab fa-js-square px-3'></i></a>
-                            <a><i className='fab fa-react px-3'></i></a>
-                            <a><i className='fab fa-css3 px-3'></i></a>
+                            <a><i className='fab fa-html5 px-3 img-transform'></i></a>
+                            <a><i className='fab fa-js-square px-3 img-transform'></i></a>
+                            <a><i className='fab fa-react px-3 img-transform'></i></a>
+                            <a><i className='fab fa-css3 px-3 img-transform'></i></a>
                         </div>
                     </div>
 
@@ -96,19 +117,19 @@ function Projects() {
                         I am proud of the work I've done on this calculator and look forward to continuing to refine and enhance it as my skills as a developer grow.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-html5 px-3'></i></a>
-                            <a><i className='fab fa-js-square px-3'></i></a>
-                            <a><i className='fab fa-react px-3'></i></a>
-                            <a><i className='fab fa-css3 px-3'></i></a>
+                            <a><i className='fab fa-html5 px-3 img-transform'></i></a>
+                            <a><i className='fab fa-js-square px-3 img-transform'></i></a>
+                            <a><i className='fab fa-react px-3 img-transform'></i></a>
+                            <a><i className='fab fa-css3 px-3 img-transform'></i></a>
                         </div>
                     </div>
 
                     <div className='col my-5'>
-                        <a href="https://karns11.github.io/Javascript-Calculator/" target="_blank"><img src="calc.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
+                        <a href="https://karns11.github.io/Javascript-Calculator/" target="_blank"><img src="calc.svg" className='img-fluid d-none d-md-block my-5 px-3 img-transform' /></a>
                     </div>
 
                     <div className='col my-5'>
-                        <a href="https://karns11.github.io/To-Do-list/" target="_blank"><img src="todo.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
+                        <a href="https://karns11.github.io/To-Do-list/" target="_blank"><img src="todo.svg" className='img-fluid d-none d-md-block my-5 px-3 img-transform' /></a>
                     </div>
 
                     <div className='col d-none d-md-block my-5'>
@@ -120,9 +141,9 @@ function Projects() {
                         the to-do list project is a useful and practical application of HTML, CSS, and JavaScript that demonstrates the power and flexibility of these web technologies.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-html5 px-3'></i></a>
-                            <a><i className='fab fa-js-square px-3'></i></a>
-                            <a><i className='fab fa-css3 px-3'></i></a>
+                            <a><i className='fab fa-html5 px-3 img-transform'></i></a>
+                            <a><i className='fab fa-js-square px-3 img-transform'></i></a>
+                            <a><i className='fab fa-css3 px-3 img-transform'></i></a>
                         </div>
                     </div>
 
@@ -138,16 +159,16 @@ function Projects() {
                         this project only allows one card at a time to be moved.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-python'></i></a>
+                            <a><i className='fab fa-python img-transform'></i></a>
                         </div>
                     </div>
 
                     <div>
-                        <a href="https://github.com/Karns11/solitaire_game" target="_blank"><img src="solitaire.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
+                        <a href="https://github.com/Karns11/solitaire_game" target="_blank"><img src="solitaire.svg" className='img-fluid d-none d-md-block my-5 px-3 img-transform' /></a>
                     </div>
 
                     <div>
-                        <a href="https://karns11.github.io/Markdown-Previewer/" target="_blank"><img src="previewer.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
+                        <a href="https://karns11.github.io/Markdown-Previewer/" target="_blank"><img src="previewer.svg" className='img-fluid d-none d-md-block my-5 px-3 img-transform' /></a>
                     </div>
 
                     <div className='col d-none d-md-block my-5'>
@@ -159,10 +180,10 @@ function Projects() {
                         feature-rich web application that is an excellent tool for quickly and easily converting markdown to HTML.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-html5 px-3'></i></a>
-                            <a><i className='fab fa-js-square px-3'></i></a>
-                            <a><i className='fab fa-react px-3'></i></a>
-                            <a><i className='fab fa-css3 px-3'></i></a>
+                            <a><i className='fab fa-html5 px-3 img-transform'></i></a>
+                            <a><i className='fab fa-js-square px-3 img-transform'></i></a>
+                            <a><i className='fab fa-react px-3 img-transform'></i></a>
+                            <a><i className='fab fa-css3 px-3 img-transform'></i></a>
                         </div>
                     </div>
 
@@ -175,17 +196,34 @@ function Projects() {
                         While it is still a work in progress, the project demonstrates the power and flexibility of Python for data analysis and machine learning.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-python'></i></a>
+                            <a><i className='fab fa-python img-transform'></i></a>
                         </div>
                     </div>
 
                     <div>
-                        <a href="https://github.com/Karns11/NBA-predictor" target="_blank"><img src="nba.svg" className='img-fluid d-none d-md-block my-5 px-3' /></a>
+                        <a href="https://github.com/Karns11/NBA-predictor" target="_blank"><img src="nba.svg" className='img-fluid d-none d-md-block my-5 px-3 img-transform' /></a>
                     </div>
                 </div>
 
 
                 <div className='row row-cols-1 text-center'>
+                    <div className='col d-md-none d-block mb-5'>
+                        <a className='small-link' href='https://karns11.github.io/Movie-Book-Search-App/' target='_blank'><h3>Movie/Book Search App</h3></a>
+                        <p className='text-center'>The movie/book search app is a passion project that was built to provide users with an easy way to search for their favorite movies or books using the IMDb or Google Books APIs.
+                        This project was a great challenge, but it was also a fantastic opportunity to improve skills in React development.
+                        With the app, users can search for movies by title, and the app provides a comprehensive list of movie results based on the title that was entered. 
+                        Similarly, book searches are simple, with the app providing users with a list of book results based on the title that was entered.
+                        Overall, this project was a great way to improve my React development skills, while also building a useful and fun app that people can enjoy. 
+                        Whether users are looking to discover new movies or books, or just searching for their favorites, this app provides a simple and intuitive way to find what they're looking for.</p>
+                        <h5 className='pt-1'>Skills used:</h5>
+                        <div>
+                            <a><i className='fab fa-html5 px-3 img-transform'></i></a>
+                            <a><i className='fab fa-js-square px-3 img-transform'></i></a>
+                            <a><i className='fab fa-react px-3 img-transform'></i></a>
+                            <a><i className='fab fa-css3 px-3 img-transform'></i></a>
+                        </div>
+                    </div>
+
                     <div className='col d-md-none d-block mb-5'>
                         <a className='small-link' href='https://karns11.github.io/Tic-Tac-Toe/' target='_blank'><h3>Tic-Tac-Toe</h3></a>
                         <p className='text-center'>I recently completed a passion project where I built a Tic Tac Toe game using React, which allowed me to enhance my skills as a developer. 
@@ -195,10 +233,10 @@ function Projects() {
                         Overall, my Tic Tac Toe game showcases my skills as a React developer and offers an interactive and fun way for players to challenge their friends and family.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-html5 px-3'></i></a>
-                            <a><i className='fab fa-js-square px-3'></i></a>
-                            <a><i className='fab fa-react px-3'></i></a>
-                            <a><i className='fab fa-css3 px-3'></i></a>
+                            <a><i className='fab fa-html5 px-3 img-transform'></i></a>
+                            <a><i className='fab fa-js-square px-3 img-transform'></i></a>
+                            <a><i className='fab fa-react px-3 img-transform'></i></a>
+                            <a><i className='fab fa-css3 px-3 img-transform'></i></a>
                         </div>
                     </div>
 
@@ -210,10 +248,10 @@ function Projects() {
                         I am proud of the work I've done on this calculator and look forward to continuing to refine and enhance it as my skills as a developer grow.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-html5 px-3'></i></a>
-                            <a><i className='fab fa-js-square px-3'></i></a>
-                            <a><i className='fab fa-react px-3'></i></a>
-                            <a><i className='fab fa-css3 px-3'></i></a>
+                            <a><i className='fab fa-html5 px-3 img-transform'></i></a>
+                            <a><i className='fab fa-js-square px-3 img-transform'></i></a>
+                            <a><i className='fab fa-react px-3 img-transform'></i></a>
+                            <a><i className='fab fa-css3 px-3 img-transform'></i></a>
                         </div>
                     </div>
 
@@ -225,9 +263,9 @@ function Projects() {
                         Overall, the to-do list project is a useful and practical application of HTML, CSS, and JavaScript that demonstrates the power and flexibility of these web technologies.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-html5 px-3'></i></a>
-                            <a><i className='fab fa-js-square px-3'></i></a>
-                            <a><i className='fab fa-css3 px-3'></i></a>
+                            <a><i className='fab fa-html5 px-3 img-transform'></i></a>
+                            <a><i className='fab fa-js-square px-3 img-transform'></i></a>
+                            <a><i className='fab fa-css3 px-3 img-transform'></i></a>
                         </div>
                     </div>
 
@@ -243,7 +281,7 @@ function Projects() {
                         this project only allows one card at a time to be moved.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-python'></i></a>
+                            <a><i className='fab fa-python img-transform'></i></a>
                         </div>
                     </div>
 
@@ -256,10 +294,10 @@ function Projects() {
                         feature-rich web application that is an excellent tool for quickly and easily converting markdown to HTML.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-html5 px-3'></i></a>
-                            <a><i className='fab fa-js-square px-3'></i></a>
-                            <a><i className='fab fa-react px-3'></i></a>
-                            <a><i className='fab fa-css3 px-3'></i></a>
+                            <a><i className='fab fa-html5 px-3 img-transform'></i></a>
+                            <a><i className='fab fa-js-square px-3 img-transform'></i></a>
+                            <a><i className='fab fa-react px-3 img-transform'></i></a>
+                            <a><i className='fab fa-css3 px-3 img-transform'></i></a>
                         </div>
                     </div>
 
@@ -272,7 +310,7 @@ function Projects() {
                         While it is still a work in progress, the project demonstrates the power and flexibility of Python for data analysis and machine learning.</p>
                         <h5 className='pt-1'>Skills used:</h5>
                         <div>
-                            <a><i className='fab fa-python'></i></a>
+                            <a><i className='fab fa-python img-transform'></i></a>
                         </div>
                     </div>
 
