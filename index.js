@@ -20,7 +20,7 @@ function Navbar() {
     return (
         <nav className='navbar navbar-expand-lg bg-dark navbar-dark py-4 fixed-top w-100'>
             <div className="container navbar-container">
-                <a href='#Showcase' className='navbar-brand brand'>Nathans Portfolio</a>
+                <a href='#Showcase' className='navbar-brand brand'>Nathan's Portfolio</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                     <span className="navbar-toggler-icon"></span>
                 </button>
